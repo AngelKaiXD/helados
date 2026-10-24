@@ -12,9 +12,9 @@ Aplicación en español para registrar productos, sabores, existencias y movimie
 1. Crea un proyecto en [Supabase](https://supabase.com/).
 2. En **SQL Editor**, ejecuta `supabase/schema.sql`.
 3. Ejecuta después `supabase/seed.sql` para cargar los 40 productos del catálogo.
-4. Copia `.env.example` a `.env.local` y completa `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY` desde Project Settings → API.
+4. Copia `.env.example` a `.env.local` y completa `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` desde Supabase → **Connect** o **Project Settings → API Keys → Publishable key**. Si tu proyecto solo muestra la clave antigua `anon`, puedes colocarla como `NEXT_PUBLIC_SUPABASE_ANON_KEY`; la aplicación todavía la acepta.
 
-La política `anon` del esquema es temporal y deliberadamente pública, sin autenticación. Cualquier visitante con acceso a la app puede modificar datos. Sustituye esas políticas por reglas ligadas a usuarios antes de usar datos sensibles.
+La política `anon` del esquema es temporal y deliberadamente pública, sin autenticación. Cualquier visitante con acceso a la app puede modificar datos. La publishable key no es un secreto y no sustituye RLS. Sustituye esas políticas por reglas ligadas a usuarios antes de usar datos reales o sensibles. Nunca coloques la clave `secret`/`service_role` en una variable `NEXT_PUBLIC_` ni en el navegador.
 
 ## Ejecutar en local
 
@@ -33,10 +33,17 @@ Las dudas de escritura, empaques, descripciones y categorías están en `CATALOG
 
 ## GitHub y Vercel
 
-1. Inicializa el repositorio local ya preparado con `git init` y el commit inicial.
-2. Crea un repositorio vacío en GitHub, agrega su URL como remoto y sube la rama desde tu equipo (`git push -u origin main`). No se hizo push desde este proyecto.
-3. En Vercel, importa el repositorio de GitHub y conserva el preset Next.js.
-4. Agrega las variables `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_ANON_KEY` en Project Settings → Environment Variables y despliega.
+1. Sube la rama `main` al repositorio GitHub configurado con `git push -u origin main`.
+2. En Vercel, importa el repositorio y conserva el preset Next.js.
+3. En **Project Settings → Environment Variables**, agrega estas dos variables para Production, Preview y Development:
+
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=https://TU_PROJECT_REF.supabase.co
+   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_TU_CLAVE
+   ```
+
+   Copia la URL y publishable key desde Supabase → **Connect** o **Project Settings → API Keys**. Para un proyecto antiguo también puedes usar `NEXT_PUBLIC_SUPABASE_ANON_KEY` con su clave `anon`.
+4. Ejecuta `supabase/schema.sql` y luego `supabase/seed.sql` una vez en el SQL Editor del proyecto Supabase. Después despliega en Vercel.
 
 ## Funcionalidades
 
