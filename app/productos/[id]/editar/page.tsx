@@ -1,0 +1,2 @@
+'use client';
+import {useParams} from 'next/navigation';import ProductForm from '@/components/product-form';import {useInventory} from '@/lib/inventory';export default function EditProduct(){const {id}=useParams<{id:string}>();const {products,ready}=useInventory();const product=products.find(p=>p.id===id);return !ready?<p>Cargando…</p>:product?<ProductForm product={product}/>:<p>Producto no encontrado.</p>}

@@ -1,0 +1,747 @@
+[
+  {
+    "name": "BRAZO GITANO",
+    "description": "",
+    "price": 85,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "unidad",
+    "category": "Postres",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/brazo-gitano.jpg",
+    "original_image": "BRAZO GITANO.jpg",
+    "catalog_description": "BRAZO GITANO\n85,00 BOB"
+  },
+  {
+    "name": "BOLO DE LECHE",
+    "description": "",
+    "price": 22,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "unidad",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/bolo-de-leche.jpg",
+    "original_image": "BOLO DE LECHE.jpg",
+    "catalog_description": "BOLO DE LECHE\n22,00 BOB"
+  },
+  {
+    "name": "SUPER LOCO LOCO",
+    "description": "",
+    "price": 15,
+    "currency": "BOB",
+    "flavors": [
+      "Tutti frutilla",
+      "Chocolate",
+      "Mango"
+    ],
+    "unit": "unidad",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/super-loco-loco.jpg",
+    "original_image": "SUPER LOCO LOCO.jpg",
+    "catalog_description": "SUPER LOCO LOCO\n15,00 BOB\nSABORES:\n🔴 Tutti frutilla\n🟤 Chocolate\n🟡 Mango"
+  },
+  {
+    "name": "Yogurt de botella 2 lts",
+    "description": "",
+    "price": 27,
+    "currency": "BOB",
+    "flavors": [
+      "Plátano",
+      "Frutilla",
+      "Chirimoya",
+      "Uva",
+      "Manzana",
+      "Durazno",
+      "Coco"
+    ],
+    "unit": "botella",
+    "category": "Yogurt",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/yogurt-de-botella-2-lts.jpg",
+    "original_image": "YOGURT DE BOTTELLA 2 LTS.jpg",
+    "catalog_description": "YOGURT BOTELLA 2 LITROScuu\n27,00 BOB\nSABORES:\n🟡 Plátano\n🔴 Frutilla\n⚪ Chirimoya \n🟣 Uva\n🟢 Manzana\n🟠 Durazno\n⚪ Coco"
+  },
+  {
+    "name": "YOGURT DRINKY 100ml",
+    "description": "",
+    "price": 14,
+    "currency": "BOB",
+    "flavors": [
+      "Frutilla",
+      "Plátano",
+      "Coco",
+      "Durazno",
+      "Chirimoya"
+    ],
+    "unit": "botella",
+    "category": "Yogurt",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/yogurt-drinky-100ml.jpg",
+    "original_image": "YOGURT DRINKY 100ml.jpg",
+    "catalog_description": "YOGURT DRINKY 100ml\n14,00 BOB\nSABORES:\n🔴 Frutilla \n🟡 Plátano\n⚪ Coco\n🟠 Durazno\n⚪ Chirimoya"
+  },
+  {
+    "name": "CAPUCCINO",
+    "description": "34 unidades por bolsa",
+    "price": 73,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/capuccino.jpg",
+    "original_image": "CAPUCCINO.jpg",
+    "catalog_description": "CAPUCCINO\n73,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "GRANIZADO",
+    "description": "34 unidades por bolsa",
+    "price": 73,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Granizados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/granizado.jpg",
+    "original_image": "GRANIZADO.jpg",
+    "catalog_description": "GRANIZADO\n73,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "MENTACHOC",
+    "description": "32 unidades por bolsa",
+    "price": 115,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/mentachoc.jpg",
+    "original_image": "MENTACHOC.jpg",
+    "catalog_description": "MENTACHOC\n115,00 BOB\nCantidad por bolsa 32 unidades"
+  },
+  {
+    "name": "CHOCO PANDA",
+    "description": "32 unidades por bolsa",
+    "price": 115,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/choco-panda.jpg",
+    "original_image": "CHOCO PANDA.jpg",
+    "catalog_description": "CHOCO PANDA\n115,00 BOB\nCantidad en bolsa 32 unidades"
+  },
+  {
+    "name": "PANDIKROK",
+    "description": "32 unidades por bolsa",
+    "price": 115,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/pandikrok.jpg",
+    "original_image": "PANDIKROK.jpg",
+    "catalog_description": "PANDIKROK\n115,00 BOB\nCantidad por bolsa 32 unidades"
+  },
+  {
+    "name": "KREMOSO",
+    "description": "20 unidades por bolsa",
+    "price": 57,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/kremoso.jpg",
+    "original_image": "KREMOSO.jpg",
+    "catalog_description": "KREMOSO\n57,00 BOB\nCantidad por bolsa 20 unidades"
+  },
+  {
+    "name": "MAXIMO",
+    "description": "34 unidades por bolsa",
+    "price": 56,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/maximo.jpg",
+    "original_image": "MAXIMO.jpg",
+    "catalog_description": "MAXIMO\n56,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "TROPICAL",
+    "description": "34 unidades por bolsa",
+    "price": 56,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/tropical.jpg",
+    "original_image": "TROPICAL.jpg",
+    "catalog_description": "TROPICAL\n56,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "GENIAL",
+    "description": "34 unidades por bolsa",
+    "price": 56,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/genial.jpg",
+    "original_image": "GENIAL.jpg",
+    "catalog_description": "GENIAL\n56,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "PICARON",
+    "description": "34 unidades por bolsa",
+    "price": 56,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/picaron.jpg",
+    "original_image": "PICARON.jpg",
+    "catalog_description": "PICARON\n56,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "CHOCOLIMON",
+    "description": "50 unidades por bolsa",
+    "price": 60,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/chocolimon.jpg",
+    "original_image": "CHOCOLIMON.jpg",
+    "catalog_description": "CHOCOLIMON\n60,00 BOB\nCantidad por bolsa 50 unidades"
+  },
+  {
+    "name": "CHOCONARANJA",
+    "description": "50 unidades por bolsa",
+    "price": 60,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/choconaranja.jpg",
+    "original_image": "CHOCONARANJA.jpg",
+    "catalog_description": "CHOCONARANJA\n60,00 BOB\nCantidad por bolsa 50 unidades"
+  },
+  {
+    "name": "VAMPIRO",
+    "description": "32 unidades por bolsa",
+    "price": 115,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/vampiro.jpg",
+    "original_image": "VAMPIRO.jpg",
+    "catalog_description": "VAMPIRO\n115,00 BOB\nCantidad por bolsa 32 unidades"
+  },
+  {
+    "name": "CASATTA",
+    "description": "",
+    "price": 25,
+    "currency": "BOB",
+    "flavors": [
+      "Chocolate",
+      "Vainilla",
+      "Frutilla"
+    ],
+    "unit": "unidad",
+    "category": "Postres",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/casatta.jpg",
+    "original_image": "CASATTA.jpg",
+    "catalog_description": "CASATTA  CHOCOLATE - VAINILLA, FRUTILLA\n25,00 BOB"
+  },
+  {
+    "name": "CREMISIMO",
+    "description": "34 unidades por bolsa",
+    "price": 73,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/cremisimo.jpg",
+    "original_image": "CREMISIMO.jpg",
+    "catalog_description": "CREMISIMO\n73,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "CAJA 5 LITROS",
+    "description": "",
+    "price": 90,
+    "currency": "BOB",
+    "flavors": [
+      "Pie de Limón",
+      "Turrón Español",
+      "Vainilla",
+      "Coco",
+      "Frutilla",
+      "Chocolate",
+      "Granizado",
+      "Menta granizado",
+      "Canela",
+      "Uva",
+      "Chicle",
+      "Pasas al Ron",
+      "Cappuccino",
+      "Chirimoya",
+      "Moka",
+      "Dulce de Leche"
+    ],
+    "unit": "caja",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/caja-5-litros.jpg",
+    "original_image": "CAJA 5 LITROS.jpg",
+    "catalog_description": "CAJA 5 LITROS\n90,00 BOB\nSABORES  :                                                                                              Pie de Limón                                                                                    Turrón Español                                                                                Vainilla                                                                                                Coco                                                                                                 Frutilla                                                                                          Chocolate                                                                                   Granizado                                                                                            Menta granizado                                                                                           Canela                                                                                                    Uva                                                                                                        Chicle                                                                                                 Pasas al Ron                                                                                      Cappuccino                                                                                                              Chirimoya                                                                                            Moka                                                                                                  Dulce de Leche"
+  },
+  {
+    "name": "FAMILIARES DE LITRO",
+    "description": "",
+    "price": 25,
+    "currency": "BOB",
+    "flavors": [
+      "Frutilla",
+      "Chocolate",
+      "Granizado",
+      "Menta granizado",
+      "Cappuccino",
+      "Vainilla",
+      "Pasas al ron",
+      "Chirimoya"
+    ],
+    "unit": "litro",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/familiares-de-litro.jpg",
+    "original_image": "FAMILIARES DE LITRO.jpg",
+    "catalog_description": "FAMILIARES DE LITRO\n25,00 BOB\nSABORES \n🔴 Frutilla \n🟤 Chocolate\n⚪ Granizado \n🟢Menta granizado \n🟡 Cappuccino\n🔴 Vainilla \n⚫Pasas al ron\n🟣 Chirimoya"
+  },
+  {
+    "name": "FROZEN GURT",
+    "description": "34 unidades por bolsa",
+    "price": 69,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/frozen-gurt.jpg",
+    "original_image": "FROZEN GURT.jpg",
+    "catalog_description": "FROZEN GURT\n69,00 BOB\nHelado de yogurt 34 unidades la bolsa"
+  },
+  {
+    "name": "CASSATIN",
+    "description": "",
+    "price": 7,
+    "currency": "BOB",
+    "flavors": [
+      "Cappuccino",
+      "Mora",
+      "Naranja Chirimoya"
+    ],
+    "unit": "unidad",
+    "category": "Postres",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/cassatin.jpg",
+    "original_image": "CASSATIN.jpg",
+    "catalog_description": "CASSATIN\n7,00 BOB\nSABORES\n🟤Cappuccino\n🟣 Mora\n🟠 Naranja Chirimoya"
+  },
+  {
+    "name": "CREMOLADA TRICOLOR",
+    "description": "",
+    "price": 15,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "unidad",
+    "category": "Granizados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/cremolada-tricolor.jpg",
+    "original_image": "CREMOLADA TRICOLOR.jpg",
+    "catalog_description": "CREMOLADA TRICOLOR\n15,00 BOB"
+  },
+  {
+    "name": "CREMOLADA CANELA",
+    "description": "",
+    "price": 15,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "unidad",
+    "category": "Granizados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/cremolada-canela.jpg",
+    "original_image": "CREMOLADA CANELA.jpg",
+    "catalog_description": "CREMOLADA CANELA\n15,00 BOB"
+  },
+  {
+    "name": "GUSANITO",
+    "description": "20 unidades por bolsa",
+    "price": 57,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/gusanito.jpg",
+    "original_image": "GUSANITO.jpg",
+    "catalog_description": "GUSANITO\n57,00 BOB\nCantidad por bolsa  20 unidades"
+  },
+  {
+    "name": "PANDI CONO",
+    "description": "20 unidades por bolsa",
+    "price": 85,
+    "currency": "BOB",
+    "flavors": [
+      "Chocolate",
+      "Frutilla",
+      "Pasas al Ron"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/pandi-cono.jpg",
+    "original_image": "PANDI CONO.jpg",
+    "catalog_description": "PANDI CONO\n85,00 BOB\nCantidad por bolsa 20 unidades \n🟤 Chocolate \n🔴 Frutilla \n⚪ Pasas al Ron"
+  },
+  {
+    "name": "VASITOS",
+    "description": "30 unidades por bolsa",
+    "price": 82,
+    "currency": "BOB",
+    "flavors": [
+      "Vainilla",
+      "Frutilla",
+      "Chirimoya"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/vasitos.jpg",
+    "original_image": "VASITOS.jpg",
+    "catalog_description": "VASITOS\n82,00 BOB\nCantidad de 30 unidades \n🟡Vainilla \n🔴 Frutilla \n⚪ Chirimoya"
+  },
+  {
+    "name": "GOLAZO",
+    "description": "10 unidades",
+    "price": 48,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "paquete",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/golazo.jpg",
+    "original_image": "GOLAZO.jpg",
+    "catalog_description": "GOLAZO\n48,00 BOB\n10 unidades"
+  },
+  {
+    "name": "BOLO DE AGUA",
+    "description": "",
+    "price": 18,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "unidad",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/bolo-de-agua.jpg",
+    "original_image": "BOLO DE AGUA.jpg",
+    "catalog_description": "BOLO DE AGUA\n18,00 BOB"
+  },
+  {
+    "name": "ESCOLINO",
+    "description": "20 unidades por bolsa",
+    "price": 45,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/escolino.jpg",
+    "original_image": "ESCOLINO.jpg",
+    "catalog_description": "ESCOLINO\n45,00 BOB\nCantidad por bolsa  20 unidades"
+  },
+  {
+    "name": "TU Y YO",
+    "description": "12 unidades por bolsa",
+    "price": 65,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/tu-y-yo.jpg",
+    "original_image": "TU Y YO.jpg",
+    "catalog_description": "TU Y YO\n65,00 BOB\nCantidad por bolsa 12 unidades"
+  },
+  {
+    "name": "UNI2",
+    "description": "34 unidades por bolsa",
+    "price": 45,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/uni2.jpg",
+    "original_image": "UNI2.jpg",
+    "catalog_description": "UNI2\n45,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "CHICOSITO CANELA",
+    "description": "34 unidades por bolsa",
+    "price": 45,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/chicosito-canela.jpg",
+    "original_image": "CHICOSITO CANELA.jpg",
+    "catalog_description": "CHICOSITO CANELA\n45,00 BOB\nCantidad por bolsa 34 unidades"
+  },
+  {
+    "name": "PANDY GELIO",
+    "description": "25 unidades por bolsa",
+    "price": 23,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/pandy-gelio.jpg",
+    "original_image": "PANDY GELIO.jpg",
+    "catalog_description": "PANDY GELIO\n23,00 BOB\nCantidad por bolsa 25 unidades"
+  },
+  {
+    "name": "TORTA MEDIANA (25cm)",
+    "description": "",
+    "price": 100,
+    "currency": "BOB",
+    "flavors": [
+      "Frutilla",
+      "Vainilla",
+      "Chirimoya"
+    ],
+    "unit": "unidad",
+    "category": "Postres",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/torta-mediana-25cm.jpg",
+    "original_image": "TORTA MEDIANA (25cm).jpg",
+    "catalog_description": "TORTA MEDIANA (25cm)\n100,00 BOB\nSabores frutilla, vainilla y chirimoya"
+  },
+  {
+    "name": "TORTA GRANDE (40cm)",
+    "description": "",
+    "price": 110,
+    "currency": "BOB",
+    "flavors": [
+      "Frutilla",
+      "Vainilla",
+      "Chirimoya"
+    ],
+    "unit": "unidad",
+    "category": "Postres",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/torta-grande-40cm.jpg",
+    "original_image": "TORTA GRANDE (40cm).jpg",
+    "catalog_description": "TORTA GRANDE (40cm)\n110,00 BOB\nSabores frutilla, vainilla y chirimoya"
+  },
+  {
+    "name": "DINAMITA",
+    "description": "50 unidades por bolsa",
+    "price": 47,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/dinamita.jpg",
+    "original_image": "DINAMITA.jpg",
+    "catalog_description": "DINAMITA\n47,00 BOB\nCantidad por bolsa 50 unidades"
+  },
+  {
+    "name": "PANDI PANDA",
+    "description": "24 unidades por bolsa",
+    "price": 105,
+    "currency": "BOB",
+    "flavors": [
+      "General"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/pandi-panda.jpg",
+    "original_image": "PANDI PANDA.jpg",
+    "catalog_description": "PANDI PANDA\n105,00 BOB\nCantidad por bolsa 24 unidades"
+  },
+  {
+    "name": "ISLA LOCA",
+    "description": "34 unidades por bolsa",
+    "price": 40,
+    "currency": "BOB",
+    "flavors": [
+      "Blue berry",
+      "Naranja",
+      "Frutilla"
+    ],
+    "unit": "bolsa",
+    "category": "Helados",
+    "min_stock": 5,
+    "stock": 0,
+    "active": true,
+    "image_url": "/productos/isla-loca.jpg",
+    "original_image": "ISLA LOCA.jpg",
+    "catalog_description": "ISLA LOCA\n40,00 BOB\nCantidad por bolsa 34 unidades\n🔵Blue berry \n🟠Naranja \n🔴Frutilla"
+  }
+]
