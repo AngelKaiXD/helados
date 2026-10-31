@@ -11,7 +11,7 @@ Aplicación en español para registrar productos, sabores, existencias y movimie
 
 1. Crea un proyecto en [Supabase](https://supabase.com/).
 2. En **SQL Editor**, ejecuta `supabase/schema.sql` y después `supabase/seed.sql` para cargar el catálogo.
-3. Ejecuta `supabase/observaciones_cliente.sql` y luego `supabase/admin_access.sql`.
+3. Ejecuta `supabase/observaciones_cliente.sql`, `supabase/admin_access.sql` y `supabase/payment_qr_settings.sql`, en ese orden.
 4. En **Authentication → Users**, crea el primer usuario administrador. Copia su UUID y ejecuta en SQL Editor el `insert` de bootstrap comentado al final de `admin_access.sql`, reemplazando el UUID y el nombre.
 5. Copia `.env.example` a `.env.local`. Las variables públicas son `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` desde Supabase → **Connect** o **Project Settings → API Keys → Publishable key**. La clave antigua `anon` se acepta como `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 
@@ -42,11 +42,10 @@ Las dudas de escritura, empaques, descripciones y categorías están en `CATALOG
    NEXT_PUBLIC_SUPABASE_URL=https://TU_PROJECT_REF.supabase.co
    NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_TU_CLAVE
    SUPABASE_SECRET_KEY=sb_secret_TU_CLAVE_PRIVADA
-   NEXT_PUBLIC_PAYMENT_QR_IMAGE_URL=https://.../qr-de-tu-cuenta.png
    ```
 
-   `SUPABASE_SECRET_KEY` se usa solo en el servidor para crear y administrar cuentas; no le agregues el prefijo `NEXT_PUBLIC_`. La URL de QR es opcional: sube el QR estático de cobro a Supabase Storage y pega aquí su URL pública. Para un proyecto antiguo también puedes usar `NEXT_PUBLIC_SUPABASE_ANON_KEY` con la clave `anon`.
-4. Ejecuta los cuatro SQL indicados arriba en orden. Después despliega en Vercel.
+   `SUPABASE_SECRET_KEY` se usa solo en el servidor para crear y administrar cuentas; no le agregues el prefijo `NEXT_PUBLIC_`. Para un proyecto antiguo también puedes usar `NEXT_PUBLIC_SUPABASE_ANON_KEY` con la clave `anon`.
+4. Ejecuta los cinco archivos SQL indicados arriba en orden. Después despliega en Vercel. El QR se carga y reemplaza desde **Administración → Personal y accesos → QR para cobrar**, sin cambiar variables ni desplegar de nuevo.
 
 ## Funcionalidades
 
