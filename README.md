@@ -11,11 +11,12 @@ Aplicación en español para registrar productos, sabores, existencias y movimie
 
 1. Crea un proyecto en [Supabase](https://supabase.com/).
 2. En **SQL Editor**, ejecuta `supabase/schema.sql` y después `supabase/seed.sql` para cargar el catálogo.
-3. Ejecuta `supabase/observaciones_cliente.sql`, `supabase/admin_access.sql` y `supabase/payment_qr_settings.sql`, en ese orden.
+3. Ejecuta `supabase/observaciones_cliente.sql` y `supabase/admin_access.sql`.
 4. En **Authentication → Users**, crea el primer usuario administrador. Copia su UUID y ejecuta en SQL Editor el `insert` de bootstrap comentado al final de `admin_access.sql`, reemplazando el UUID y el nombre.
-5. Copia `.env.example` a `.env.local`. Las variables públicas son `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` desde Supabase → **Connect** o **Project Settings → API Keys → Publishable key**. La clave antigua `anon` se acepta como `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+5. Ejecuta `supabase/guest_cashier.sql` y luego `supabase/payment_qr_settings.sql`.
+6. Copia `.env.example` a `.env.local`. Las variables públicas son `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` desde Supabase → **Connect** o **Project Settings → API Keys → Publishable key**. La clave antigua `anon` se acepta como `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 
-`admin_access.sql` reemplaza las políticas abiertas del esquema inicial: los cajeros pueden consultar productos y registrar ventas, mientras que solo admins pueden editar productos y stock. La clave publishable no es un secreto. Nunca coloques `SUPABASE_SECRET_KEY`/`service_role` en una variable `NEXT_PUBLIC_` ni en el navegador.
+`admin_access.sql` reemplaza las políticas abiertas del esquema inicial. `guest_cashier.sql` permite usar la caja, consultar el catálogo, movimientos y reportes sin iniciar sesión; solo admins pueden editar productos, stock y personal. La clave publishable no es un secreto. Nunca coloques `SUPABASE_SECRET_KEY`/`service_role` en una variable `NEXT_PUBLIC_` ni en el navegador.
 
 ## Ejecutar en local
 
@@ -45,7 +46,7 @@ Las dudas de escritura, empaques, descripciones y categorías están en `CATALOG
    ```
 
    `SUPABASE_SECRET_KEY` se usa solo en el servidor para crear y administrar cuentas; no le agregues el prefijo `NEXT_PUBLIC_`. Para un proyecto antiguo también puedes usar `NEXT_PUBLIC_SUPABASE_ANON_KEY` con la clave `anon`.
-4. Ejecuta los cinco archivos SQL indicados arriba en orden. Después despliega en Vercel. El QR se carga y reemplaza desde **Administración → Personal y accesos → QR para cobrar**, sin cambiar variables ni desplegar de nuevo.
+4. Ejecuta los seis archivos SQL indicados arriba en orden. Después despliega en Vercel. El QR se carga y reemplaza desde **Administración → Personal y accesos → QR para cobrar**, sin cambiar variables ni desplegar de nuevo.
 
 ## Funcionalidades
 
