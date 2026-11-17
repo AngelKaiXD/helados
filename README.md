@@ -15,7 +15,8 @@ Aplicación en español para registrar productos, sabores, existencias y movimie
 4. En **Authentication → Users**, crea el primer usuario administrador. Copia su UUID y ejecuta en SQL Editor el `insert` de bootstrap comentado al final de `admin_access.sql`, reemplazando el UUID y el nombre.
 5. Ejecuta `supabase/guest_cashier.sql` y luego `supabase/payment_qr_settings.sql`.
 6. Ejecuta `supabase/report_sellers_and_root_admin.sql` para que los reportes guarden el usuario que registró cada venta y para reservar la gestión de personal a `heladosdepanda@gmail.com` (puedes cambiarlo con `SUPER_ADMIN_EMAIL` en Vercel).
-7. Copia `.env.example` a `.env.local`. Las variables públicas son `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` desde Supabase → **Connect** o **Project Settings → API Keys → Publishable key**. La clave antigua `anon` se acepta como `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+7. Ejecuta `supabase/delete_catalog_products_keep_sales.sql` para que borrar un producto del catálogo conserve los nombres en los reportes históricos.
+8. Copia `.env.example` a `.env.local`. Las variables públicas son `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` desde Supabase → **Connect** o **Project Settings → API Keys → Publishable key**. La clave antigua `anon` se acepta como `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 
 `admin_access.sql` reemplaza las políticas abiertas del esquema inicial. `guest_cashier.sql` permite usar la caja, consultar el catálogo, movimientos y reportes sin iniciar sesión; solo admins pueden editar productos, stock y personal. La clave publishable no es un secreto. Nunca coloques `SUPABASE_SECRET_KEY`/`service_role` en una variable `NEXT_PUBLIC_` ni en el navegador.
 
@@ -47,7 +48,7 @@ Las dudas de escritura, empaques, descripciones y categorías están en `CATALOG
    ```
 
    `SUPABASE_SECRET_KEY` se usa solo en el servidor para crear y administrar cuentas; no le agregues el prefijo `NEXT_PUBLIC_`. Para un proyecto antiguo también puedes usar `NEXT_PUBLIC_SUPABASE_ANON_KEY` con la clave `anon`.
-4. Ejecuta los siete archivos SQL indicados arriba en orden. Después despliega en Vercel. El QR se carga y reemplaza desde **Administración → Personal y accesos → QR para cobrar**, sin cambiar variables ni desplegar de nuevo.
+4. Ejecuta los ocho archivos SQL indicados arriba en orden. Después despliega en Vercel. El QR se carga y reemplaza desde **Administración → Personal y accesos → QR para cobrar**, sin cambiar variables ni desplegar de nuevo.
 
 ## Funcionalidades
 
